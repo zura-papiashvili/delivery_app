@@ -26,11 +26,11 @@ import { ConfigModule } from '@nestjs/config';
     MessageModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'ec2-54-89-143-102.compute-1.amazonaws.com',
       port: 3306,
-      username: 'delivery',
-      password: 'Kobaroveli007',
-      database: 'delivery_app',
+      username: 'frodo',
+      password: 'MyNewPass1!',
+      database: 'lotr',
       entities: [
         UsersEntity,
         RestaurantEntity,
